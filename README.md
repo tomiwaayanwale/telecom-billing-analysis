@@ -23,10 +23,11 @@ All work is implemented in **Python (pandas, matplotlib)** with outputs exported
   - Clean Excel report (`avoxi_analysis_results.xlsx`)  
   - Full Python notebook (`billing_analysis.ipynb`) with all formulas and logic  
 
-## Repository Structure
-
-telecom-billing-analysis/ │ ├── avoxi_analysis_results.xlsx   # Final Excel report ├── billing_analysis.ipynb        # Full analysis notebook ├── README.md                     # Project documentation └── requirements.txt              # Python dependencies
-
+## Project Files
+- `avoxi_analysis_results.xlsx` — Final Excel report with all metrics  
+- `avoxi_analysis.ipynb` — Full analysis notebook (Python code and calculations)  
+- `README.md` — Project documentation (this file)  
+- 
 
 ## Tools & Libraries
 - Python 3.x  
@@ -35,25 +36,11 @@ telecom-billing-analysis/ │ ├── avoxi_analysis_results.xlsx   # Final Ex
 - matplotlib  
 - openpyxl  
 
-## How to Run
-```bash
-git clonehttps://github.com/tomiwaayanwale/telecom-billing-analysis.git
-cd telecom-billing-analysis
-pip install -r requirements.txt
-jupyter notebook billing_analysis.ipynb
-```
-
 ## Insights & Recommendations
-
-Total billing per client calculated and available in Excel output.
-
-Low-margin clients identified — recommend targeted rate adjustments.
-
-High-cost vendors impact profitability — vendor renegotiation suggested.
-
-Automated dashboards could simplify recalculation for pricing changes.
-
+- Total billing per client calculated and included in the Excel output.  
+- Low-margin clients identified — targeted rate adjustments recommended.  
+- High-cost vendors impact profitability — vendor renegotiation suggested.  
+- Automated dashboards could simplify recalculation for pricing changes.  
 
 ## Author
-
-Tomiwa Ayanwale
+Tomiwa Ayanwale 
