@@ -27,6 +27,7 @@ All work is implemented in **Python (pandas, matplotlib)** with outputs exported
 
 telecom-billing-analysis/ │ ├── avoxi_analysis_results.xlsx   # Final Excel report ├── billing_analysis.ipynb        # Full analysis notebook ├── README.md                     # Project documentation └── requirements.txt              # Python dependencies
 
+
 ## Tools & Libraries
 - Python 3.x  
 - pandas  
@@ -35,22 +36,24 @@ telecom-billing-analysis/ │ ├── avoxi_analysis_results.xlsx   # Final Ex
 - openpyxl  
 
 ## How to Run
-git clone https://github.com/tomiwaayanwale/telecom-billing-analysis.git
-cd data-center-grid-mapping
+```bash
+git clonehttps://github.com/tomiwaayanwale/telecom-billing-analysis.git
+cd telecom-billing-analysis
 pip install -r requirements.txt
-jupyter notebook grid_mapping_analysis.ipynb
+jupyter notebook billing_analysis.ipynb
+```
 
-Insights & Recommendations
+## Insights & Recommendations
 
-Mapped 30 operational data centers in Virginia, Pennsylvania, and Ohio with detailed grid connection data.
-Built a 16-column dataset capturing MW capacity, coordinates, ISO/RTO region, nearest substations, transmission lines, and grid connection visibility.
-Verified proximity using GIS tools and OpenInfraMap overlays, with Python (geopy, pandas) for ETL workflows and automated distance calculations.
-Findings highlight that ~80% of facilities are within 1 mile of a substation, supporting site selection, infrastructure planning, and investment prioritization.
+Total billing per client calculated and available in Excel output.
 
-Skills
+Low-margin clients identified — recommend targeted rate adjustments.
 
-Python, pandas, geopy, GIS, ETL, data analysis, spreadsheet modeling, geospatial mapping, infrastructure research, energy market analysis, data validation, Excel
+High-cost vendors impact profitability — vendor renegotiation suggested.
 
-Author
+Automated dashboards could simplify recalculation for pricing changes.
+
+
+## Author
 
 Tomiwa Ayanwale
