@@ -35,7 +35,7 @@ telecom-billing-analysis/ │ ├── avoxi_analysis_results.xlsx   # Final Ex
 - openpyxl  
 
 ## How to Run
-git clone https://github.com/yourusername/data-center-grid-mapping.git
+git clone https://github.com/tomiwaayanwale/telecom-billing-analysis.git
 cd data-center-grid-mapping
 pip install -r requirements.txt
 jupyter notebook grid_mapping_analysis.ipynb
