@@ -35,22 +35,21 @@ telecom-billing-analysis/ │ ├── avoxi_analysis_results.xlsx   # Final Ex
 - openpyxl  
 
 ## How to Run
-```bash
-git clone https://github.com/yourusername/telecom-billing-analysis.git
-cd telecom-billing-analysis
+git clone https://github.com/yourusername/data-center-grid-mapping.git
+cd data-center-grid-mapping
 pip install -r requirements.txt
-jupyter notebook billing_analysis.ipynb
+jupyter notebook grid_mapping_analysis.ipynb
 
 Insights & Recommendations
 
-Total billing per client calculated and available in Excel output.
+Mapped 30 operational data centers in Virginia, Pennsylvania, and Ohio with detailed grid connection data.
+Built a 16-column dataset capturing MW capacity, coordinates, ISO/RTO region, nearest substations, transmission lines, and grid connection visibility.
+Verified proximity using GIS tools and OpenInfraMap overlays, with Python (geopy, pandas) for ETL workflows and automated distance calculations.
+Findings highlight that ~80% of facilities are within 1 mile of a substation, supporting site selection, infrastructure planning, and investment prioritization.
 
-Low-margin clients identified — recommend targeted rate adjustments.
+Skills
 
-High-cost vendors impact profitability — vendor renegotiation suggested.
-
-Automated dashboards could simplify recalculation for pricing changes.
-
+Python, pandas, geopy, GIS, ETL, data analysis, spreadsheet modeling, geospatial mapping, infrastructure research, energy market analysis, data validation, Excel
 
 Author
 
